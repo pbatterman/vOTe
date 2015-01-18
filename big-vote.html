@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Big D</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->    
+    </head>
+    <body>
+      <div class="container-fluid" id = "header"> <!-- header -->
+        <a href="main.html"><h1>V&Theta;TING: BIG D</h1></a>
+      </div>
+
+      <div class="container-fluid" id = "n-bigd-body">
+        <div class = "row">
+        <!-- name, voting buttons, and photo -->
+        <div class = "col-sm-4">
+        <div class = "bigd-image-box">
+          <h2 style="margin-top:0; color:#8B0000">Cornjulio Plywood</h2> 
+
+          <div class="btn-group" data-toggle="buttons-radio" id = "n-bigd-vote-buttons">
+            <button data-toggle="button" name="option" value="1" class="btn" onclick="changeColor('#05DA00')" id = "bigd-yes" style="background-image:url('images/up.png');"></button>
+            <button data-toggle="button" name="option" value="1" class="btn" onclick="changeColor('#DA0F00')" id = "bigd-no" style="background-image:url('images/down.png');"></button>
+          </div>
+          <div class = "bigd-image" style="background-image:url('images/cornhole.png')" id = "picture">
+          </div>
+        </div>
+      </div>
+        <!-- their slide/info -->
+        <div class = "col-sm-8"
+        <div class = "bigd-slide">
+          <img src="images/slide.png"/>
+        </div>
+      </div>
+ </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+  <script type="text/javascript">
+  function changeColor(color){
+    var div = document.getElementById('picture');
+    div.style.borderColor = color;
+  }
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

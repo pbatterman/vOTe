@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>IDK vote</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->    
+    </head>
+    <body>
+      <div class="container-fluid" id = "idk-header"> <!-- header -->
+        <a href="main.html"><h1 style="color:#FFFFFF">V&Theta;TING: IDK</h1></a>
+      </div>
+      <div class="key">
+        <h3 style="color:#FFFFFF; text-align:center; padding-top:10px;">KEY:</h3>
+        <p style="color:#33CC33"><b>GREEN (+) = “I am acquainted with this candidate and can advocate on their behalf.”</b></p>
+        <p style="color:#FF6656;"><b>RED (-) = “I am acquainted with this candidate and cannot advocate on their behalf.”</p>
+        <p style="color:#FFCC00; padding-bottom:10px;"><b>ORANGE (?) “I am not acquainted with this candidate.”</b></p>
+      </div> 
+
+
+      <div class="container-fluid" id = "idk-body">
+        <div class="row">
+
+          <div class="col-sm-3">
+            <div class = "rush">
+              Ankita Chadha 
+              <div class = "rush-image" style="background-image:url('images/kita.jpg')">
+              </div>
+              <div class="btn-group" data-toggle="buttons-radio" id = "idk-vote-buttons">
+                <button data-toggle="button" name="option" value="1" class="btn btn-success" id = "idk-for" onclick="changeColor('#33CC33', this)">+</button>
+                <button data-toggle="button" name="option" value="2" class="btn btn-danger" id = "idk-against" onclick="changeColor('#FF6656', this)">-</button>
+                <button data-toggle="button" name="option" value="3" class="btn btn-warning" id = "idk-NA" onclick="changeColor('#FFCC33', this)">?</button>
+              </div>
+            </div>
+          </div>
+
+          <div class=" col-sm-3">
+            <div class = "rush">
+              Cornelius Sackville-Baggins 
+              <div class = "rush-image" style="background-image:url('images/cornhole.png')">
+              </div>
+              <div class="btn-group" data-toggle="buttons-radio" id = "idk-vote-buttons">
+                <button data-toggle="button" name="option" value="1" class="btn btn-success" id = "idk-for" onclick="changeColor('#33CC33', this)">+</button>
+                <button data-toggle="button" name="option" value="2" class="btn btn-danger" id = "idk-against" onclick="changeColor('#FF6656', this)">-</button>
+                <button data-toggle="button" name="option" value="3" class="btn btn-warning" id = "idk-NA" onclick="changeColor('#FFCC33', this)">?</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class = "rush">
+              Ankita Chadha 
+              <div class = "rush-image" style="background-image:url('images/kita.jpg')">
+              </div>
+              <div class="btn-group" data-toggle="buttons-radio" id = "idk-vote-buttons">
+                <button data-toggle="button" name="option" value="1" class="btn btn-success" id = "idk-for" onclick="changeColor('#33CC33', this)">+</button>
+                <button data-toggle="button" name="option" value="2" class="btn btn-danger" id = "idk-against" onclick="changeColor('#FF6656', this)">-</button>
+                <button data-toggle="button" name="option" value="3" class="btn btn-warning" id = "idk-NA" onclick="changeColor('#FFCC33', this)">?</button>
+              </div>
+            </div>
+          </div>
+
+          <div class=" col-sm-3">
+            <div class = "rush">
+              Cornelius Sackville-Baggins 
+              <div class = "rush-image" style="background-image:url('images/cornhole.png')">
+              </div>
+              <div class="btn-group" data-toggle="buttons-radio" id = "idk-vote-buttons">
+                <button data-toggle="button" name="option" value="1" class="btn btn-success" id = "idk-for" onclick="changeColor('#33CC33', this)">+</button>
+                <button data-toggle="button" name="option" value="2" class="btn btn-danger" id = "idk-against" onclick="changeColor('#FF6656', this)">-</button>
+                <button data-toggle="button" name="option" value="3" class="btn btn-warning" id = "idk-NA" onclick="changeColor('#FFCC33', this)">?</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class = "rush">
+              Ankita Chadha 
+              <div class = "rush-image" style="background-image:url('images/kita.jpg')">
+              </div>
+              <div class="btn-group" data-toggle="buttons-radio" id = "idk-vote-buttons">
+                <button data-toggle="button" name="option" value="1" class="btn btn-success" id = "idk-for" onclick="changeColor('#33CC33', this)">+</button>
+                <button data-toggle="button" name="option" value="2" class="btn btn-danger" id = "idk-against" onclick="changeColor('#FF6656', this)">-</button>
+                <button data-toggle="button" name="option" value="3" class="btn btn-warning" id = "idk-NA" onclick="changeColor('#FFCC33', this)">?</button>
+              </div>
+            </div>
+          </div>
+
+          <div class=" col-sm-3">
+            <div class = "rush">
+              Cornelius Sackville-Baggins 
+              <div class = "rush-image" style="background-image:url('images/cornhole.png')">
+              </div>
+              <div class="btn-group" data-toggle="buttons-radio" id = "idk-vote-buttons">
+                <button data-toggle="button" name="option" value="1" class="btn btn-success" id = "idk-for" onclick="changeColor('#33CC33', this)">+</button>
+                <button data-toggle="button" name="option" value="2" class="btn btn-danger" id = "idk-against" onclick="changeColor('#FF6656', this)">-</button>
+                <button data-toggle="button" name="option" value="3" class="btn btn-warning" id = "idk-NA" onclick="changeColor('#FFCC33', this)">?</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class = "rush">
+              Ankita Chadha 
+              <div class = "rush-image" style="background-image:url('images/kita.jpg')">
+              </div>
+              <div class="btn-group" data-toggle="buttons-radio" id = "idk-vote-buttons">
+                <button data-toggle="button" name="option" value="1" class="btn btn-success" id = "idk-for" onclick="changeColor('#33CC33', this)">+</button>
+                <button data-toggle="button" name="option" value="2" class="btn btn-danger" id = "idk-against" onclick="changeColor('#FF6656', this)">-</button>
+                <button data-toggle="button" name="option" value="3" class="btn btn-warning" id = "idk-NA" onclick="changeColor('#FFCC33', this)">?</button>
+              </div>
+            </div>
+          </div>
+
+          <div class=" col-sm-3">
+            <div class = "rush">
+              Cornelius Sackville-Baggins 
+              <div class = "rush-image" style="background-image:url('images/cornhole.png')">
+              </div>
+              <div class="btn-group" data-toggle="buttons-radio" id = "idk-vote-buttons">
+                <button data-toggle="button" name="option" value="1" class="btn btn-success" id = "idk-for" onclick="changeColor('#33CC33', this)">+</button>
+                <button data-toggle="button" name="option" value="2" class="btn btn-danger" id = "idk-against" onclick="changeColor('#FF6656', this)">-</button>
+                <button data-toggle="button" name="option" value="3" class="btn btn-warning" id = "idk-NA" onclick="changeColor('#FFCC33', this)">?</button>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+        <!-- Add the extra clearfix for only the required viewport -->
+        <div class="clearfix visible-xs-block"></div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+  <script type="text/javascript">
+  function changeColor(color, elem){
+    var parent = elem.parentElement.parentElement;
+    parent.style.backgroundColor = color; 
+  }
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
